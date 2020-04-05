@@ -1,0 +1,738 @@
+/*---------------------------------------------VERSION PORTATIL INICIO---------------------------------------------------------*/
+/*-----------------------------------CSS para Textos Inicio---------------------------------------*/
+h1 {	
+	color: white;	
+	font-family: 'Roboto', sans-serif; font-weight: black 900;
+	font-size: 20px;
+}
+
+h2 {	
+	color: white;
+	font-family: 'Roboto', sans-serif; font-weight: bold 900;
+}
+
+h3 {	
+	color: white;
+	font-family: 'Roboto', sans-serif; font-weight: bold 700;
+}
+
+p {
+	font-family: 'Roboto', sans-serif; font-weight: 400;
+	color: white;
+	font-style: italic;
+	font-size: 18px;
+	margin: none;
+}
+
+/*-----------------------------------CSS para Textos Fin---------------------------------------*/
+
+
+
+/*--------------------------Estrustura superior Inicio--------------------------------------------*/
+
+	body {
+		width: 100%;
+		max-width: 1366px;
+		margin:0 auto;
+		background-color: black;
+	}
+
+	.contenedorprincipal {
+
+	}
+
+	header {
+		margin: none;
+		width: 100%;
+		padding-top: 40px;
+		padding-bottom: none;
+		background-color: black;
+	}
+
+	.logopng {
+		padding: 10px;
+		padding-bottom: 40px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.linkinParkTitulo {
+		background-color: #1A1A1A;
+		display: flex;  flex-direction: row;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		
+	}
+
+	.likinParkTitulo2 {
+	background-color: #1A1A1A;
+	display: flex;  flex-direction: row;
+	width: 100%;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+
+	}
+
+	nav {
+		background-color: black;
+		width: 100%;
+	   	display: flex;  flex-direction: row; 
+	   	justify-content: space-around; 
+	   	align-content: center;
+	}
+
+	.boton {
+		background-color: none;
+		width: 273px;
+		height: 25px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.integrantes img {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	
+
+	/*--------------------------estrustura superior fin--------------------------------------------*/
+
+	/*--------------------------estrustura Intermedia Inicio--------------------------------------------*/
+
+	section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.sectionpadres {
+	width: 100%;
+	max-width: 1326px;
+	padding-bottom: 0px; 
+	padding-top: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: black;
+	display: grid;
+	grid-column-gap:30px;
+	grid-row-gap:50px;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	}
+	.sectionhijos {
+	max-width: 400px;
+	width: 100%;
+	height: 400px;
+	background-color: black;
+	text-align: center;
+	}
+
+
+	/*--------------------------estrustura Intermedia Fin--------------------------------------------*/
+
+	/*--------------------------estrustura inferior Inicio--------------------------------------------*/
+	footer {
+		width: 100%;
+		background-color: #1A1A1A;
+	}
+	.footerPadre {
+		display: flex;  flex-direction: row; 
+	   	justify-content: center; 
+	   	align-content: center;
+	   	width: 100%;
+	   	height: 90px;
+	   	padding: none;
+	   	margin-left: none;
+	}
+
+	.foot1 {
+			width: 25%;
+			height: 30px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			display: flex;
+			justify-content: center;
+			background-color: #1A1A1A;
+		}
+
+		.foot2 {
+			width: 25%;
+			height: 30px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			display: flex;
+			justify-content: center;
+			background-color: #1A1A1A;
+		}
+
+		.foot3 {
+			width: 25%;
+			height: 30px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			display: flex;
+			justify-content: center;
+			background-color: #1A1A1A;
+		}
+
+		.foot4 {
+			width: 25%;
+			height: 30px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			display: flex;
+			justify-content: center;
+			background-color: #1A1A1A;
+		}
+
+	.footer {
+		color: white;
+		font-family: 'Roboto', sans-serif; font-weight: 200;
+		font-size: 20px;
+	}
+
+	.piedepagina2 {
+		background-color: #1A1A1A;
+		width: 100%;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+		
+	}
+
+	.copyright {
+		font-family: 'Roboto', sans-serif; font-weight: 200;
+		color: white;
+		font-style: italic;
+		font-size: 14px;
+	}
+
+	.piedepagina {
+		background-color: #1A1A1A;
+		display: flex;  flex-direction: row;
+		width: 100%;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		justify-content: center;
+	}
+
+	.colorsecciones {
+		color: white;
+		font-family: 'Roboto', sans-serif; font-weight: 400;
+		font-size: 25px;	
+	}
+
+	/*--------------------------estrustura inferior Fin--------------------------------------------*/
+
+
+	/*---------------------------------------------VERSION PORTATIL FIN---------------------------------------------------------*/
+
+	
+	/*---------------------------------------------VERSION TABLET INICIO---------------------------------------------------------*/
+
+		@media (min-width: 700px) and (max-width: 1024px) {
+
+
+		/*-----------------------------------CSS para Textos Inicio---------------------------------------*/
+		h1 {	
+			color: white;	
+			font-family: 'Roboto', sans-serif; font-weight: black 900;
+			font-size: 20px;
+		}
+
+		h2 {	
+			color: white;
+			font-family: 'Roboto', sans-serif; font-weight: bold 900;
+		}
+
+		h3 {	
+			color: white;
+			font-family: 'Roboto', sans-serif; font-weight: bold 700;
+		}
+
+		p {
+			font-family: 'Roboto', sans-serif; font-weight: 400;
+			color: white;
+			font-style: italic;
+			font-size: 18px;
+			margin: none;
+		}
+
+		/*-----------------------------------CSS para Textos Fin---------------------------------------*/
+
+
+
+		/*--------------------------Estrustura superior Inicio--------------------------------------------*/
+/*--------------------------estrustura superior Inicio--------------------------------------------*/
+
+			body {
+				width: 100%;
+				max-width: 1024px;
+				margin:0 auto;
+				background-color: black;
+			}
+
+			
+
+			header {
+				margin: none;
+				width: 100%;
+				max-width: 1024px;
+				padding-top: 40px;
+				padding-bottom: none;
+				background-color: black;
+			}
+
+			.logopng {
+				padding:none;
+				padding-bottom: 40px;
+				display: flex;
+				justify-content: center;
+			}
+
+			.linkinParkTitulo {
+				background-color: #1A1A1A;
+				display: flex;  flex-direction: row;
+				width: 100%;
+				max-width: 1024px;
+				justify-content: center;
+				align-items: center;
+				
+			}
+
+			nav {
+				background-color: black;
+				width: 100%;
+				max-width: 1024px;
+				display: grid;
+				grid-gap: 20px;
+				grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			}
+
+			.boton {
+				
+				background-color: none;
+				width: 100%;
+				height: 50px;
+				padding-right: 0px;
+				padding-left: 0px;
+				padding-top: 20px;
+				padding-bottom: 0px;
+				text-align: center;
+				align-items: center;
+			}
+
+			.integrantes img {
+				width: 100%;
+				
+				display: flex;
+				justify-content: center;
+			}
+
+			.linkinParkTitulo {
+				background-color: #1A1A1A;
+				display: flex;  flex-direction: row;
+				width: 100%;
+				justify-content: center;
+				align-items: center;
+				
+			}
+
+			.likinParkTitulo2 {
+			background-color: #1A1A1A;
+			display: flex;  flex-direction: row;
+			width: 100%;
+			height: 70px;
+			justify-content: center;
+			align-items: center;
+
+			}
+
+			section {
+
+			}
+
+
+			/*--------------------------estrustura superior fin--------------------------------------------*/
+
+			/*--------------------------estrustura Intermedia Inicio--------------------------------------------*/
+
+			.sectionpadres {
+			width: 100%;
+			max-width: 1024px;
+			padding: 0px; 
+			background-color: black;
+			display: grid;
+			grid-column-gap:30px;
+			grid-row-gap:50px;
+			grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+			grid-template-columns: 1fr 1fr;
+			justify-content: center;
+			}
+			.sectionhijos {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: black;
+			text-align: center;
+			}
+
+
+			/*--------------------------estrustura Intermedia Fin--------------------------------------------*/
+
+			/*--------------------------estrustura inferior Inicio--------------------------------------------*/
+			footer {
+			width: 100%;
+			background-color: #1A1A1A;
+			}
+
+			.footerPadre {
+				
+			   	width: 100%;
+			   	margin-left: none;
+			   	display: grid;
+			   	grid-template-columns: 1fr 1fr 1fr 1fr;
+			   	
+			}
+
+			.foot1 {
+				width: 100%;
+				height: 30px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				display: flex;
+				justify-content: center;
+				background-color: #1A1A1A;
+			}
+
+			.foot2 {
+				width: 100%;
+				height: 30px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				display: flex;
+				justify-content: center;
+				background-color: #1A1A1A;
+			}
+
+			.foot3 {
+				width: 100%;
+				height: 30px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				display: flex;
+				justify-content: center;
+				background-color: #1A1A1A;
+			}
+
+			.foot4 {
+				width: 100%;
+				height: 30px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				display: flex;
+				justify-content: center;
+				background-color: #1A1A1A;
+			}
+
+
+
+			.footer {
+				color: white;
+				font-family: 'Roboto', sans-serif; font-weight: 200;
+				font-size: 20px;
+			}
+
+
+			.piedepagina2 {
+			background-color: #1A1A1A;
+			width: 100%;
+			height: 30px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			text-align: center;
+			display: grid;
+			grid-template-columns: 1fr;
+			}
+
+			.copyright {
+				font-family: 'Roboto', sans-serif; font-weight: 200;
+				color: white;
+				font-style: italic;
+				font-size: 14px;
+			}
+
+			.piedepagina {
+				background-color: #1A1A1A;
+				display: flex;  flex-direction: row;
+				width: 100%;
+				height: 30px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				justify-content: center;
+				
+			}
+
+			.colorsecciones {
+				color: white;
+				font-family: 'Roboto', sans-serif; font-weight: 400;
+				font-size: 18px;	
+			
+			}
+			/*--------------------------estrustura inferior Fin--------------------------------------------*/
+
+
+		}
+
+
+	/*---------------------------------------------VERSION TABLET FIN---------------------------------------------------------*/
+
+	/*---------------------------------------------VERSION SMARTPHONE INICIO---------------------------------------------------------*/
+
+		@media only screen and (max-width: 700px) {
+
+
+			/*-----------------------------------CSS para Textos Inicio---------------------------------------*/
+			h1 {	
+				color: white;	
+				font-family: 'Roboto', sans-serif; font-weight: black 900;
+				font-size: 20px;
+			}
+
+			h2 {	
+				color: white;
+				font-family: 'Roboto', sans-serif; font-weight: bold 900;
+			}
+
+			h3 {	
+				color: white;
+				font-family: 'Roboto', sans-serif; font-weight: bold 700;
+			}
+
+			p {
+				font-family: 'Roboto', sans-serif; font-weight: 400;
+				color: white;
+				font-style: italic;
+				font-size: 18px;
+				margin: none;
+			}
+
+			/*-----------------------------------CSS para Textos Fin---------------------------------------*/
+
+
+
+			/*--------------------------Estrustura superior Inicio--------------------------------------------*/
+
+			body {
+			width: 100%;
+			max-width: 700px;
+			margin:0 auto;
+			background-color: black;
+			}
+
+			header {
+			margin: none;
+			width: 100%;
+			padding-top: 40px;
+			padding-bottom: none;
+			background-color: black;
+			}
+
+			.logopng {
+				padding:none;
+				padding-bottom: 40px;
+				display: flex;
+				justify-content: center;
+			}
+
+			.linkinParkTitulo {
+				background-color: #1A1A1A;
+				display: flex;  flex-direction: row;
+				width: 100%;
+				justify-content: center;
+				align-items: center;
+				
+			}
+
+			nav {
+				background-color: black;
+				width: 100%;
+			   	display: block;
+			   	display: grid;
+			   	grid-template-columns: 1fr;
+			}
+
+			.boton {
+				background-color: none;
+				width: 100%;
+				height: 50px;
+				padding-right: 0px;
+				padding-left: 0px;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				text-align: center;
+			}
+
+			.integrantes img {
+				width: 100%;
+				
+				display: flex;
+				justify-content: center;
+			}
+
+			.likinParkTitulo2 {
+			background-color: #1A1A1A;
+			display: flex;  flex-direction: row;
+			width: 100%;
+			height: 70px;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			}
+			
+			section {
+
+			}
+
+
+			/*--------------------------estrustura superior fin--------------------------------------------*/
+
+			/*--------------------------estrustura Intermedia Inicio--------------------------------------------*/
+
+			.sectionpadres {
+			width: 100%;
+			max-width: 700px;
+			padding: 0px; 
+			background-color: black;
+			display: grid;
+			grid-column-gap:30px;
+			grid-row-gap:50px;
+			grid-template-rows: none;
+			grid-template-columns: 1fr ;
+			}
+			.sectionhijos {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: black;
+			text-align: center;
+			}
+
+
+			/*--------------------------estrustura Intermedia Fin--------------------------------------------*/
+
+			/*--------------------------estrustura inferior Inicio--------------------------------------------*/
+			footer {
+				width: 100%;
+				background-color: #1A1A1A;
+				position: relative;
+				top: 100px;
+			}
+
+			.footerPadre {
+				
+			   	width: 100%;
+			   	margin-left: none;
+			   	display: flex;
+			   	flex-direction: column;
+			   	
+			}
+
+			.foot1 {
+				width: 100%;
+				height: 30px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				display: flex;
+				justify-content: center;
+				background-color: #1A1A1A;
+			}
+
+			.foot2 {
+				width: 100%;
+				height: 30px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				display: flex;
+				justify-content: center;
+				background-color: #1A1A1A;
+			}
+
+			.foot3 {
+				width: 100%;
+				height: 30px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				display: flex;
+				justify-content: center;
+				background-color: #1A1A1A;
+			}
+
+			.foot4 {
+				width: 100%;
+				height: 30px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				display: flex;
+				justify-content: center;
+				background-color: #1A1A1A;
+			}
+
+
+
+			.footer {
+				color: white;
+				font-family: 'Roboto', sans-serif; font-weight: 200;
+				font-size: 20px;
+			}
+
+
+			.piedepagina2 {
+			background-color: #1A1A1A;
+			width: 100%;
+			height: 30px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			text-align: center;
+			position: relative;
+			top: 120px;
+			}
+
+			.copyright {
+				font-family: 'Roboto', sans-serif; font-weight: 200;
+				color: white;
+				font-style: italic;
+				font-size: 14px;
+			}
+
+			.piedepagina {
+				background-color: #1A1A1A;
+				display: flex;  flex-direction: row;
+				width: 100%;
+				height: 30px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				justify-content: center;
+				position: relative;
+				top: 120px;
+			}
+
+			.colorsecciones {
+				color: white;
+				font-family: 'Roboto', sans-serif; font-weight: 400;
+				font-size: 19px;	
+			}
+
+			/*--------------------------estrustura inferior Fin--------------------------------------------*/
+
+
+
+		}	
+
+	/*---------------------------------------------VERSION SMARTPHONE INICIO---------------------------------------------------------*/
